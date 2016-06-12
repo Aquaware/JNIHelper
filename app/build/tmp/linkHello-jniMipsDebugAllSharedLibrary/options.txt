@@ -1,0 +1,15 @@
+-shared
+-Wl,-soname,libhello-jni.so
+-o
+/Users/ikuo/AndroidStudioProjects/HelloJNI/app/build/intermediates/binaries/debug/all/obj/mips/libhello-jni.so
+/Users/ikuo/AndroidStudioProjects/HelloJNI/app/build/intermediates/objectFiles/mipsDebugAllSharedLibrary/hello-jniMainC/92u2bhkpnrjkd6punwc7yr0lt/hello-jni.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=/Users/ikuo/Library/Android/sdk/ndk-bundle/platforms/android-23/arch-mips
+-Wl,--build-id
+-gcc-toolchain
+/Users/ikuo/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64
+-target
+mipsel-none-linux-android

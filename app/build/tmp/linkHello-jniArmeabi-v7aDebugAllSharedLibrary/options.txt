@@ -1,0 +1,16 @@
+-shared
+-Wl,-soname,libhello-jni.so
+-o
+/Users/ikuo/AndroidStudioProjects/HelloJNI/app/build/intermediates/binaries/debug/all/obj/armeabi-v7a/libhello-jni.so
+/Users/ikuo/AndroidStudioProjects/HelloJNI/app/build/intermediates/objectFiles/armeabi-v7aDebugAllSharedLibrary/hello-jniMainC/92u2bhkpnrjkd6punwc7yr0lt/hello-jni.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=/Users/ikuo/Library/Android/sdk/ndk-bundle/platforms/android-23/arch-arm
+-Wl,--build-id
+-gcc-toolchain
+/Users/ikuo/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64
+-target
+armv7-none-linux-android
+-Wl,--fix-cortex-a8

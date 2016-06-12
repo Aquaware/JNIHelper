@@ -1,0 +1,15 @@
+-shared
+-Wl,-soname,libhello-jni.so
+-o
+/Users/ikuo/AndroidStudioProjects/HelloJNI/app/build/intermediates/binaries/debug/all/obj/arm64-v8a/libhello-jni.so
+/Users/ikuo/AndroidStudioProjects/HelloJNI/app/build/intermediates/objectFiles/arm64-v8aDebugAllSharedLibrary/hello-jniMainC/92u2bhkpnrjkd6punwc7yr0lt/hello-jni.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=/Users/ikuo/Library/Android/sdk/ndk-bundle/platforms/android-23/arch-arm64
+-Wl,--build-id
+-gcc-toolchain
+/Users/ikuo/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64
+-target
+aarch64-none-linux-android
